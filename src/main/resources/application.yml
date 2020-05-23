@@ -1,0 +1,14 @@
+# logback
+logging:
+  file:
+    path: classpath:/logback-spring.xml
+  level:
+    root: debug
+    boot: info
+  path: logs
+
+pigeon:
+  agent:
+    serverHost: 127.0.0.1
+    port: 7878
+
